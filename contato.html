@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Portfólio de Renan de Souza Nunes, estudante de Ciência da Computação e desenvolvedor.">
+    <title>Contato | Renan de Souza Nunes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav-wrap"><a class="brand" href="index.html">Renan<span>.</span>dev</a>
+            <nav aria-label="Menu principal"><a class="" href="index.html">Home</a><a class=""
+                    href="curriculo.html">Currículo</a><a class="" href="github.html">GitHub</a><a class=""
+                    href="servicos.html">Serviços</a><a class="active" href="contato.html">Contato</a></nav>
+        </div>
+    </header>
+    <main>
+        <section class="section-head">
+            <div>
+                <div class="eyebrow">Vamos conversar</div>
+                <h1 style="color:#14243a;font-size:2.7rem">Contato e orçamento</h1>
+                <p>Conte um pouco sobre sua ideia. Com essas informações, posso entender a demanda e preparar uma
+                    proposta inicial.</p>
+            </div>
+        </section>
+        <div class="two-col">
+            <div>
+                <form action="mailto:renansouzanunes10@gmail.com" method="post" enctype="text/plain">
+                    <div class="form-grid">
+                        <div class="field full"><label for="nome">Nome completo *</label><input id="nome"
+                                name="Nome completo" type="text" placeholder="Seu nome" autocomplete="name" required>
+                        </div>
+                        <div class="field"><label for="telefone">Telefone *</label><input id="telefone" name="Telefone"
+                                type="tel" placeholder="(27) 99999-9999" autocomplete="tel" required></div>
+                        <div class="field"><label for="email">E-mail *</label><input id="email" name="E-mail"
+                                type="email" placeholder="voce@exemplo.com" autocomplete="email" required></div>
+                        <div class="field"><label for="tipo-pessoa">Você é *</label><select id="tipo-pessoa"
+                                name="Tipo de cliente" required>
+                                <option value="">Selecione</option>
+                                <option>Pessoa física</option>
+                                <option>Pessoa jurídica</option>
+                            </select></div>
+                        <div class="field"><label for="horario">Melhor horário para contato</label><select id="horario"
+                                name="Melhor horário">
+                                <option>Qualquer horário comercial</option>
+                                <option>Manhã (8h–12h)</option>
+                                <option>Tarde (12h–18h)</option>
+                                <option>Noite (após 18h)</option>
+                            </select></div>
+                        <div class="field full"><label for="servico">Qual serviço deseja? *</label><select id="servico"
+                                name="Serviço desejado" required>
+                                <option value="">Selecione uma opção</option>
+                                <option>Site estático (HTML e CSS)</option>
+                                <option>Site institucional de 1 a 2 páginas</option>
+                                <option>Site institucional de 3 a 5 páginas</option>
+                                <option>Site com mais de 5 páginas</option>
+                                <option>Site dinâmico</option>
+                                <option>Sistema ou site avançado</option>
+                                <option>Manutenção ou melhoria de site existente</option>
+                                <option>Outro / preciso de orientação</option>
+                            </select></div>
+                        <div class="field full"><label>Quais recursos são importantes? (marque todos que se
+                                aplicam)</label>
+                            <div class="choice-row"><label><input type="checkbox" name="Recursos"
+                                        value="Galeria de fotos" style="width:auto"> Galeria de
+                                    fotos</label><label><input type="checkbox" name="Recursos" value="Formulário"
+                                        style="width:auto"> Formulário</label><label><input type="checkbox"
+                                        name="Recursos" value="Catálogo de produtos" style="width:auto">
+                                    Catálogo</label><label><input type="checkbox" name="Recursos" value="Banco de dados"
+                                        style="width:auto"> Banco de dados</label><label><input type="checkbox"
+                                        name="Recursos" value="Área administrativa" style="width:auto"> Área
+                                    administrativa</label></div>
+                        </div>
+                        <div class="field full"><label for="descricao">Descreva brevemente o que deseja contratar
+                                *</label><textarea id="descricao" name="Descrição do projeto"
+                                placeholder="Conte o objetivo do site, o tipo de negócio, páginas e funcionalidades desejadas..."
+                                required></textarea></div>
+                        <div class="field full"><label><input type="checkbox" name="Autorização de contato" value="Sim"
+                                    required style="width:auto"> Autorizo o uso destes dados para responder à minha
+                                solicitação. *</label></div>
+                        <div class="field full"><button class="btn" type="submit">Enviar solicitação</button>
+                            <p class="small">Este formulário usa o aplicativo de e-mail configurado no dispositivo. Para
+                                receber e armazenar respostas automaticamente, é necessário configurar um backend ou
+                                serviço de formulários e substituir o e-mail de exemplo no código.</p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <aside>
+                <div class="card">
+                    <h2>Outros canais</h2>
+                    <p>Você também pode conhecer meus projetos e entrar em contato pelo GitHub.</p>
+                    <p><strong>GitHub:</strong><br><a href="https://github.com/NaNNunes" target="_blank"
+                            rel="noopener">github.com/NaNNunes ↗</a></p>
+                    <p><strong>Localização:</strong><br>Grande Vitória, Espírito Santo</p>
+                </div>
+                <div class="card" style="margin-top:18px">
+                    <h3>O que acontece depois?</h3>
+                    <p>Vou analisar a descrição, esclarecer dúvidas sobre o escopo e organizar uma proposta com
+                        funcionalidades, prazo e valor estimado.</p>
+                </div>
+            </aside>
+        </div>
+    </main>
+    <footer>
+        <p><strong>Renan de Souza Nunes</strong> · Ciência da Computação · Vila Velha, ES</p>
+        <p><a href="index.html">Início</a> · <a href="servicos.html">Serviços</a> · <a href="contato.html">Entre em
+                contato</a> · <a href="https://github.com/NaNNunes" target="_blank" rel="noopener">GitHub</a></p>
+        <p class="small">Site demonstrativo acadêmico. Os formulários não armazenam dados sem integração com um
+            servidor.</p>
+    </footer>
+</body>
+
+</html>
